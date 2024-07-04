@@ -13339,8 +13339,8 @@ textarea.form-control {
 
 .photo_of_core img {
   width: 100%;
-  max-width: 120px; 
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -13374,4 +13374,7 @@ textarea.form-control {
   }
 }
 
+.container-wrap {
+  overflow: hidden;
+}
 
