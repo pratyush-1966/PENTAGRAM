@@ -7274,7 +7274,7 @@ body {
   line-height: 1.8;
   font-weight: 300;
   color: gray;
-  background: url(../images/Purple\ glow.png) no-repeat fixed;
+  background: url(../images/More\ glow.png) no-repeat fixed;
   background-size: cover; }
   body.menu-show {
     overflow: hidden;
@@ -7563,13 +7563,13 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 100vh;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 750px;
+      height: 100vh;
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
@@ -7806,16 +7806,20 @@ h1, h2, h3, h4, h5,
 } */
 .ftco-about .one-half {
   width: 100%;
-  padding: 2rem; 
+  /* padding: 2rem;  */
   color: white;
   margin-top: 130px;
   height: 500px;
+}
+
+.ftco-about .one-half .overlap{
+  padding: 2rem;
 }
   @media (min-width: 768px) {
     .ftco-about .one-half {
       padding: 0;
       width: 50%;
-      height: 500px; 
+      /* height: 500px;  */
     } 
   }
   .ftco-about .one-half.img {
@@ -7823,10 +7827,21 @@ h1, h2, h3, h4, h5,
   }
     @media (max-width: 767.98px) {
       .ftco-about .one-half {
-        height: 600px; 
+        height: 700px; 
       } 
+      .ftco-about .overlap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
       .ftco-about .one-half{
         margin-top: 0;
+      }
+      .ftco-about .img {
+        height: 230px;
+        background-size: contain;
       }
     }
   @media (min-width: 768px) {
