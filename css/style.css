@@ -9337,3 +9337,48 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    .photo_of_core {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .photo_of_core img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .photo_of_core .core_name {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #fff;
+    }
+    
+    .photo_of_core .core_position {
+      display: block;
+      font-size: 14px;
+      color: #aaa;
+    }
+    
+    .ftco-section .container-wrap .row {
+      justify-content: space-around;
+    }
+    
+    @media (max-width: 991px) {
+      .ftco-section .container-wrap .row .col-lg-2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .ftco-section .container-wrap .row .col-lg-2 {
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+    
+    .container-wrap {
+      overflow: hidden;
+    }
